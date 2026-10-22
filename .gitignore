@@ -1,0 +1,14 @@
+# PhysioNet raw data and participant-level derived files are not redistributed (data use agreement)
+raw/
+*.zip
+per_test.csv
+S2_influence.csv
+outliers.csv
+A2_per_test.csv
+features_A1_A3.csv
+A3_oof.csv
+figures/
+results_o2p_v3/
+results_o2p_ai_v2/
+__pycache__/
+.ipynb_checkpoints/
