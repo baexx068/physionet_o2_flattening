@@ -1,0 +1,12 @@
+step,tests,participants
+tests_total,992,857.0
+excl_speed_channel_anomaly,1,
+excl_user_signal_741_1_539_1,2,
+excl_no_exercise_end,0,
+excl_age_lt18,145,
+excl_not_evaluable_main,10,
+evaluable_adult,834,724.0
+screen_30pct_set_aside,254,214.0
+sealed_tests,580,510.0
+P1_sealed_first_tests,510,510.0
+P2_sealed_pairs,59,59.0

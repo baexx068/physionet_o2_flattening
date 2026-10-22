@@ -1,0 +1,20 @@
+file,row,v1,v2,same
+A1_summary.csv,Dummy,기준,기준,True
+A1_summary.csv,HGB,예측 가능(하한 > 0.5),예측 가능(하한 > 0.5),True
+A1_summary.csv,LR,예측 가능(하한 > 0.5),예측 가능(하한 > 0.5),True
+A1_summary.csv,MLP,예측 가능(하한 > 0.5),예측 가능(하한 > 0.5),True
+A1_summary.csv,RF,예측 가능(하한 > 0.5),예측 가능(하한 > 0.5),True
+A1_compare.csv,RF,ML 이득 근거 없음,ML 이득 근거 없음,True
+A1_compare.csv,HGB,ML 이득 근거 없음,ML 이득 근거 없음,True
+A1_compare.csv,MLP,ML 이득 근거 없음,ML 이득 근거 없음,True
+A3_compare.csv,Ridge,선형 대비 이득 근거 없음,선형 대비 이득 근거 없음,True
+A3_compare.csv,RF,선형 대비 이득 근거 없음,선형 대비 이득 근거 없음,True
+A3_compare.csv,HGB,선형 대비 이득 근거 없음,선형 대비 이득 근거 없음,True
+A3_compare.csv,MLP,선형 대비 이득 근거 없음,선형 대비 이득 근거 없음,True
+A2_summary.csv,HR+speed|Ridge,불가(상한 < 0.40),불가(상한 < 0.40),True
+A2_summary.csv,HR+speed|CNN,불가(상한 < 0.40),불가(상한 < 0.40),True
+A2_summary.csv,HR+speed|GRU,불가(상한 < 0.40),불가(상한 < 0.40),True
+A2_summary.csv,HR+speed+resp|Ridge,불가(상한 < 0.40),불가(상한 < 0.40),True
+A2_summary.csv,HR+speed+resp|CNN,불가(상한 < 0.40),불가(상한 < 0.40),True
+A2_summary.csv,HR+speed+resp|GRU,판정 불가,판정 불가,True
+A4_repeat.csv,k 6→6,재현 안 됨(상한 < 0.40),재현 안 됨(상한 < 0.40),True

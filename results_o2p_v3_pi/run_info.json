@@ -1,0 +1,77 @@
+{
+ "generation": "o2p_v3",
+ "excluded_user": {
+  "741_1": "gas_signal_collapse (VO2 1,250 -> 291 mL/min while speed 8 -> 14 km/h and VE rose)",
+  "539_1": "implausibly_low_VO2 (21 mL/kg/min at 17.4 km/h; RER peak 0.91)"
+ },
+ "run_at": "2026-10-22T17:10:30",
+ "seed": 20261021,
+ "jitter_seed": 20261022,
+ "n_boot": 2000,
+ "raw": "D:/treadmil/raw",
+ "sha256": {
+  "subject-info.csv": "e9ca5ba20eb1272df56c11d3e584ec3997d5484454812bd94966e58082415f16",
+  "test_measure.csv": "3b5ed5586dc7412ccdfb26f804e29c06482a2a1df2060399c2731ebc68d4613d"
+ },
+ "sha_algorithm": "SHA-256",
+ "screen_ids": "04_OUTPUTS\\results_malaga_screen_2026-10-21\\screen_ids.csv",
+ "python": "3.12.10",
+ "platform": "Windows-11-10.0.26300-SP0",
+ "flow": [
+  {
+   "step": "tests_total",
+   "tests": 992,
+   "participants": 857.0
+  },
+  {
+   "step": "excl_speed_channel_anomaly",
+   "tests": 1,
+   "participants": NaN
+  },
+  {
+   "step": "excl_user_signal_741_1_539_1",
+   "tests": 2,
+   "participants": NaN
+  },
+  {
+   "step": "excl_no_exercise_end",
+   "tests": 0,
+   "participants": NaN
+  },
+  {
+   "step": "excl_age_lt18",
+   "tests": 145,
+   "participants": NaN
+  },
+  {
+   "step": "excl_not_evaluable_main",
+   "tests": 10,
+   "participants": NaN
+  },
+  {
+   "step": "evaluable_adult",
+   "tests": 834,
+   "participants": 724.0
+  },
+  {
+   "step": "screen_30pct_set_aside",
+   "tests": 254,
+   "participants": 214.0
+  },
+  {
+   "step": "sealed_tests",
+   "tests": 580,
+   "participants": 510.0
+  },
+  {
+   "step": "P1_sealed_first_tests",
+   "tests": 510,
+   "participants": 510.0
+  },
+  {
+   "step": "P2_sealed_pairs",
+   "tests": 59,
+   "participants": 59.0
+  }
+ ]
+}

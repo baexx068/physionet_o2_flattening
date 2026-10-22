@@ -1,0 +1,10 @@
+step,n
+per_test rows (o2p_v3),992
+"excluded (218_1, 741_1, 539_1)",3
+age < 18,145
+not evaluable (120 s window),10
+A1 / A2 tests,834
+A1 / A2 participants,724
+A3 tests (O2P max available),834
+A4 first tests,724
+A4 repeat pairs,91

@@ -1,0 +1,22 @@
+{
+ "generation": "o2p_ai_v2",
+ "framework": "keras 3.15.1 / tensorflow 2.21.0",
+ "platform": "Windows-11-10.0.26300-SP0",
+ "python": "3.12.10",
+ "fast_debug": false,
+ "run_at": "2026-10-22T18:06:06",
+ "seed": 20261022,
+ "repeats": 5,
+ "k_outer": 5,
+ "k_inner": 3,
+ "n_iter": 20,
+ "sha256": {
+  "subject-info.csv": "e9ca5ba20eb1272df56c11d3e584ec3997d5484454812bd94966e58082415f16",
+  "test_measure.csv": "3b5ed5586dc7412ccdfb26f804e29c06482a2a1df2060399c2731ebc68d4613d"
+ },
+ "per_test": "../results_o2p_v3_pi/per_test.csv",
+ "per_test_sha256": "b810e3c9412d1a7f65be9cdd0e7c01bf321fd59578038c048f04555eea254582",
+ "seconds": 3073,
+ "v1_numeric_identical": false,
+ "v1_decisions_identical": true
+}

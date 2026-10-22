@@ -1,0 +1,2 @@
+n_pairs,kappa,lo,hi,agree,both_pos,both_neg,discordant,boot_undefined,conditional_ci,decision
+59,0.036432160804019995,-0.2084337349397591,0.28148917181781347,0.559322033898305,7,26,26,0,False,개인 고유 특성으로 볼 수 없다(상한 < 0.40)
